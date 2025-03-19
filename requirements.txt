@@ -1,2 +1,3 @@
 ipykernel
 pyannote.audio
+moviepy
