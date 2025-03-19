@@ -4,3 +4,4 @@ moviepy
 indic-nlp-library
 transformers
 librosa
+numpy<=2.1

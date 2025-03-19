@@ -1,7 +1,7 @@
 from moviepy import VideoFileClip, TextClip, CompositeVideoClip
 import os
 
-def convert(video_path, output_format="mp3"):
+def convert(video_path, output_format="mp3",output_path="outputs"):
     """
     Convert a video file to an audio file.
     
@@ -16,7 +16,7 @@ def convert(video_path, output_format="mp3"):
     if not os.path.exists(video_path):
         raise FileNotFoundError(f"The video file '{video_path}' does not exist.")
     
-    output_directory = "outputs"
+    output_directory = output_path
     
     os.makedirs(output_directory, exist_ok=True)
     
@@ -41,8 +41,9 @@ if __name__ == "__main__":
 
     VIDEO_PATH = "inputs/videoplayback.mp4"  
     OUTPUT_FORMAT = "wav"
+    OUTPUT_PATH = "outputs"
     
     try:
-        convert(VIDEO_PATH, OUTPUT_FORMAT)
+        convert(VIDEO_PATH, OUTPUT_FORMAT, OUTPUT_PATH)
     except Exception as e:
         print(f"Error occurred: {str(e)}")
