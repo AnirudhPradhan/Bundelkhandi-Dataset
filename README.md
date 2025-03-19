@@ -14,7 +14,7 @@ This repository contains scripts and pipelines for Automatic Speech Recognition 
 
 #### 1️⃣ Clone the Repository 🖥️📂
 ```bash
-git clone [repository_url]
+git clone https://github.com/AnirudhPradhan/Bundelkhandi-Dataset.git
 cd Bundelkhandi-Dataset
 ```
 
@@ -71,7 +71,5 @@ We welcome contributions! If you'd like to improve the project, feel free to:
 ---
 
 ## 📜 License 📝🔓
-[Specify License Information Here]
-
 For any questions or support, feel free to reach out! 🚀😊
 
