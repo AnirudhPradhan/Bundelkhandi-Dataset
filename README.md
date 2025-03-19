@@ -1,0 +1,75 @@
+# 🗣️ Bundelkhandi-Dataset
+
+This repository contains scripts and pipelines for Automatic Speech Recognition (ASR), Speaker Diarization, and video-to-audio conversion tailored to process and analyze audio data, specifically for the Bundelkhandi language dataset.
+- 🎥 **Video to Audio Conversion** 🎬🔊 – Extracting high-quality audio from video files.
+- 🎙️ **Speaker Diarization** 🗣️🔍 – Identifying and segmenting different speakers in an audio file.
+- 📝 **Automatic Speech Recognition (ASR)** 🎤📝 – Transcribing speech into text with high accuracy.
+- 🔗 **Pipeline Integration** 🔄⚙️ – Seamlessly combining these functionalities into an efficient workflow.
+
+---
+
+## 🚀 Getting Started
+
+### 🛠️ Setup
+
+#### 1️⃣ Clone the Repository 🖥️📂
+```bash
+git clone https://github.com/AnirudhPradhan/Bundelkhandi-Dataset.git
+cd Bundelkhandi-Dataset
+```
+
+#### 2️⃣ Create a Virtual Environment (Recommended) 🏗️🐍
+```bash
+python -m venv venv
+# Activate the virtual environment:
+source venv/bin/activate  # On macOS and Linux
+venv\Scripts\activate  # On Windows
+```
+
+#### 3️⃣ Install Dependencies 📦⚡
+```bash
+pip install -r requirements.txt
+```
+
+#### 4️⃣ Prepare Input Videos 🎥📥
+Place your video files inside the `inputs/` directory for processing.
+
+---
+
+## 🎯 Usage
+
+### 1️⃣ Run the Complete Pipeline 🚀🔄
+Launch the **Jupyter Notebook** `main.ipynb` to execute the full processing pipeline.
+
+### 2️⃣ Run Individual Components 🔧🛠️
+Each functionality can also be executed separately:
+
+- **Convert Video to Audio** 🎥➡️🔊
+  ```bash
+  python VideoToAudio.py
+  ```
+- **Perform Speaker Diarization** 🗣️🔍
+  ```bash
+  python Diarization.py
+  ```
+- **Run Automatic Speech Recognition (ASR)** 🎤📝
+  ```bash
+  python ASR.py
+  ```
+
+Alternatively, check the **Jupyter Notebooks** 📓🔬 for detailed explanations and examples.
+
+---
+
+## 🤝 Contributing 💡🚀
+We welcome contributions! If you'd like to improve the project, feel free to:
+
+- Submit a **Pull Request** 📌🔧
+- Open an **Issue** 🐛📢 for bug reports or feature suggestions
+- Share feedback to enhance the repository 🚀💬
+
+---
+
+## 📜 License 📝🔓
+For any questions or support, feel free to reach out! 🚀😊
+
