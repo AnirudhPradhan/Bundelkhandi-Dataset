@@ -1,3 +1,6 @@
 ipykernel
 pyannote.audio
 moviepy
+indic-nlp-library
+transformers
+librosa
