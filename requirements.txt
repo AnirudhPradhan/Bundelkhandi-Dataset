@@ -1,0 +1,2 @@
+ipykernel
+pyannote.audio
