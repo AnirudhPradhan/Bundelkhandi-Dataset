@@ -18,7 +18,6 @@ def generate_transcript(file_path):
     whisper_asr = pipeline(
         "automatic-speech-recognition",
         model="openai/whisper-large-v2",
-        use_auth_token=hf_token
     )
 
     transcript = []
