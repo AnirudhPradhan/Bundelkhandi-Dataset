@@ -32,10 +32,6 @@ venv\Scripts\activate  # On Windows
 ```bash
 pip install -r requirements.txt
 ```
-
-#### 4️⃣ Prepare Input Videos 🎥📥
-Place your video files inside the `inputs/` directory for processing.
-
 ---
 
 ## 🎯 Usage
