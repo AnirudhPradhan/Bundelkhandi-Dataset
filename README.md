@@ -1,6 +1,8 @@
 # 🗣️ Bundelkhandi-Dataset
 
 This repository contains scripts and pipelines for Automatic Speech Recognition (ASR), Speaker Diarization, and video-to-audio conversion tailored to process and analyze audio data, specifically for the Bundelkhandi language dataset.
+
+- 🖥️ **Fetching YouTube Videos** 📹🔗 – Download videos from YouTube for processing.
 - 🎥 **Video to Audio Conversion** 🎬🔊 – Extracting high-quality audio from video files.
 - 🎙️ **Speaker Diarization** 🗣️🔍 – Identifying and segmenting different speakers in an audio file.
 - 📝 **Automatic Speech Recognition (ASR)** 🎤📝 – Transcribing speech into text with high accuracy.
@@ -30,10 +32,6 @@ venv\Scripts\activate  # On Windows
 ```bash
 pip install -r requirements.txt
 ```
-
-#### 4️⃣ Prepare Input Videos 🎥📥
-Place your video files inside the `inputs/` directory for processing.
-
 ---
 
 ## 🎯 Usage
@@ -44,6 +42,10 @@ Launch the **Jupyter Notebook** `main.ipynb` to execute the full processing pipe
 ### 2️⃣ Run Individual Components 🔧🛠️
 Each functionality can also be executed separately:
 
+- **Fetch YouTube Videos** 📹🔗
+  ```bash
+  python ScrapYT.py
+  ```
 - **Convert Video to Audio** 🎥➡️🔊
   ```bash
   python VideoToAudio.py
