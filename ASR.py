@@ -14,7 +14,8 @@ def generate_transcript(file_path):
     # Initialize AI4Bharat ASR pipeline for Odia
     asr_pipeline = pipeline(
         "automatic-speech-recognition",
-        model="ai4bharat/indicwav2vec-hindi"
+        # model="ai4bharat/indicwav2vec-hindi" #use this for generating hindi transcripts
+        model="ai4bharat/indicwav2vec-odia" # use this for generating odia transcripts
     )
 
     # Perform diarization
