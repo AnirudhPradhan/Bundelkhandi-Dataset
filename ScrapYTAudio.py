@@ -20,7 +20,7 @@ def get_audio(url, output_folder, csv_file, language):
 
     # yt-dlp options for downloading audio
     ydl_opts = {
-        'outtmpl': os.path.join(output_folder, '%(title)s.%(ext)s'),  # Output template
+        'outtmpl': os.path.join(output_folder, '%(id)s.%(ext)s'),  # Output template
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',  # Use FFmpeg to extract audio
             'preferredcodec': 'wav',  # Output format set to WAV
