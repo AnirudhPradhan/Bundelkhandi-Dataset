@@ -22,10 +22,10 @@ cd Bundelkhandi-Dataset
 
 #### 2️⃣ Create a Virtual Environment (Recommended) 🏗️🐍
 ```bash
-python -m venv venv
+python -m venv myenv
 # Activate the virtual environment:
 source venv/bin/activate  # On macOS and Linux
-venv\Scripts\activate  # On Windows
+myenv\Scripts\activate  # On Windows
 ```
 
 #### 3️⃣ Install Dependencies 📦⚡
