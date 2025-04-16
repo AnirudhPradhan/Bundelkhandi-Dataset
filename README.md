@@ -37,7 +37,10 @@ pip install -r requirements.txt
 ## 🎯 Usage
 
 ### 1️⃣ Run the Complete Pipeline 🚀🔄
-Launch the **Jupyter Notebook** `main.ipynb` to execute the full processing pipeline.
+
+- Open the **Jupyter Notebook** `main.ipynb` to execute each step of the full processing pipeline **manually**.
+
+- For a **one-click transcript generation**, use `pipeline.ipynb` — simply update the YouTube video link and select the desired language:
 
 ### 2️⃣ Run Individual Components 🔧🛠️
 Each functionality can also be executed separately:
