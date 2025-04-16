@@ -47,7 +47,7 @@ Each functionality can also be executed separately:
 
 - **Fetch YouTube Videos** 📹🔗
   ```bash
-  python ScrapYT.py
+  python ScrapYTAudio.py
   ```
 - **Convert Video to Audio** 🎥➡️🔊
   ```bash
